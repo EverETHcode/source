@@ -33,7 +33,7 @@ contract EverETH is ERC20, Ownable {
     uint256 public BuyBackFee = 5;
     uint256 public totalFees = EthereumRewardsFee.add(liquidityFee).add(BuyBackFee);
 
-    address public _BuyBackWalletAddress = 0x962B328dD735CE278D7A6308E8df84429493b81c;
+    address public _BuyBackWalletAddress = 0x31ae5960A67CC7A7A00125114dC8D68eB9c3D3F8;
 
 
     // use by default 300,000 gas to process auto-claiming dividends
