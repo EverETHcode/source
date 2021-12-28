@@ -28,9 +28,9 @@ contract EverETH is ERC20, Ownable {
     uint256 public swapTokensAtAmount = 50000000 * (10**9);
     
 
-    uint256 public EthereumRewardsFee = 8;
-    uint256 public liquidityFee = 2;
-    uint256 public BuyBackFee = 5;
+    uint256 public EthereumRewardsFee = 10;
+    uint256 public liquidityFee = 1;
+    uint256 public Ecosystem = 1;
     uint256 public totalFees = EthereumRewardsFee.add(liquidityFee).add(BuyBackFee);
 
     address public _BuyBackWalletAddress = 0x31ae5960A67CC7A7A00125114dC8D68eB9c3D3F8;
